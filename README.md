@@ -4,6 +4,13 @@ This is the code for my ECE 695 final project. The project is about
 
 > Hybrid DNN+GMM Approach for Detecting Anomalies in Pre-trained Model Architectures. 
 
+# Environment
+
+The environment can be installed using `requirements.txt` file. 
+```bash
+pip install -r requirements.txt
+```
+
 # Motivation
 As innovation in deep learning continues, many engineers seek to adopt Pre-Trained Models (PTMs) as components in computer systems.
 Researchers publish PTMs, which engineers adapt for quality or performance prior to deployment.
@@ -90,7 +97,7 @@ The code and scripts is organized as follows:
 | `data_cleaned_filtered.json` | The cleaned and filtered data from PeaTMOSS dataset which is used as the training and eval data. |  |
 | `dataloader.py`, `dataloader_GMM.py` | Load the data |  |
 | `modeling.py`, `modeling_GMM.py` | Define the model architecture |  |
-| `run.py` | Train and evaluate the vanilla DNN model | `python run.py` |
+| `run.py` | Train and evaluate the vanilla DNN model | ``` python run.py``` |
 | `run_DNNwithGMM.py` | Train and evaluate the DNN+GMM model | `python run_DNNwithGMM.py` |
 | `pca_plot.py` | Plot the PCA of the data | `python pca_plot.py` |
 |`logs/` | The logs of the training and evaluation |  |
