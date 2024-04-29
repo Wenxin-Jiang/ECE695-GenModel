@@ -1,0 +1,47 @@
+[
+    {
+        "original_model_name": "hf-tiny-model-private/tiny-random-EsmForMaskedLM",
+        "predicted_label": "camembert",
+        "ground_truth_label": "esm"
+    },
+    {
+        "original_model_name": "facebook/mms-lid-512",
+        "predicted_label": "hubert",
+        "ground_truth_label": "wav2vec2"
+    },
+    {
+        "original_model_name": "kundank/dspt-electra-small-qqp",
+        "predicted_label": "camembert",
+        "ground_truth_label": "electra"
+    },
+    {
+        "original_model_name": "Bagus/wav2vec2-xlsr-japanese-speech-emotion-recognition",
+        "predicted_label": "hubert",
+        "ground_truth_label": "wav2vec2"
+    },
+    {
+        "original_model_name": "bookbot/wav2vec2-xls-r-adult-child-id-cls",
+        "predicted_label": "hubert",
+        "ground_truth_label": "wav2vec2"
+    },
+    {
+        "original_model_name": "schreon/xnext-lhm_queries_encoder",
+        "predicted_label": "camembert",
+        "ground_truth_label": "dpr"
+    },
+    {
+        "original_model_name": "lewtun/distilhubert-finetuned-gtzan",
+        "predicted_label": "wav2vec2",
+        "ground_truth_label": "hubert"
+    },
+    {
+        "original_model_name": "TokenfreeEMNLPSubmission/canine-base-finetuned-parsing-ud-korean-gsd",
+        "predicted_label": "camembert",
+        "ground_truth_label": "canine"
+    },
+    {
+        "original_model_name": "hf-internal-testing/tiny-random-GLPNForDepthEstimation",
+        "predicted_label": "segformer",
+        "ground_truth_label": "glpn"
+    }
+]

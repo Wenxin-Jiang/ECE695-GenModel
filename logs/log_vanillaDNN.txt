@@ -1,0 +1,487 @@
+2024-04-29 16:19:37.229 | INFO     | __main__:<module>:22 - Using device: cuda
+2024-04-29 16:19:37.957 | INFO     | __main__:CV_run:246 - Number of classes: 40
+2024-04-29 16:19:37.958 | INFO     | __main__:CV_run:247 - Input shape: torch.Size([1, 894])
+2024-04-29 16:19:39.837 | INFO     | __main__:CV_run:270 - Starting fold 1
+2024-04-29 16:19:40.515 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.4786
+2024-04-29 16:19:40.647 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 2.7913
+2024-04-29 16:19:40.791 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 2.4118
+2024-04-29 16:19:40.920 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 2.1272
+2024-04-29 16:19:41.092 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 1.9490
+2024-04-29 16:19:41.221 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 1.7626
+2024-04-29 16:19:41.366 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 1.6105
+2024-04-29 16:19:41.497 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 1.4856
+2024-04-29 16:19:41.655 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 1.3429
+2024-04-29 16:19:41.823 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 1.2632
+2024-04-29 16:19:41.971 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 62.94%
+2024-04-29 16:19:42.124 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 1.2232
+2024-04-29 16:19:42.261 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 1.1337
+2024-04-29 16:19:42.407 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 1.0558
+2024-04-29 16:19:42.536 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 1.0588
+2024-04-29 16:19:42.708 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.9740
+2024-04-29 16:19:42.851 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.9634
+2024-04-29 16:19:43.053 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.9578
+2024-04-29 16:19:43.196 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.9316
+2024-04-29 16:19:43.385 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.9382
+2024-04-29 16:19:43.559 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.8773
+2024-04-29 16:19:43.698 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 61.18%
+2024-04-29 16:19:43.866 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.9077
+2024-04-29 16:19:44.054 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.8843
+2024-04-29 16:19:44.229 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.8834
+2024-04-29 16:19:44.382 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.8472
+2024-04-29 16:19:44.542 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.8108
+2024-04-29 16:19:44.696 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.8445
+2024-04-29 16:19:44.862 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.7988
+2024-04-29 16:19:45.063 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.7748
+2024-04-29 16:19:45.236 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.8129
+2024-04-29 16:19:45.390 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.7840
+2024-04-29 16:19:45.554 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 62.65%
+2024-04-29 16:19:45.732 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.7513
+2024-04-29 16:19:45.916 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.7641
+2024-04-29 16:19:46.084 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.7427
+2024-04-29 16:19:46.262 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.7454
+2024-04-29 16:19:46.434 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.7393
+2024-04-29 16:19:46.609 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.7409
+2024-04-29 16:19:46.771 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.7418
+2024-04-29 16:19:46.964 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.7358
+2024-04-29 16:19:47.141 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.7333
+2024-04-29 16:19:47.297 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.7243
+2024-04-29 16:19:47.447 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 63.53%
+2024-04-29 16:19:47.449 | SUCCESS  | __main__:CV_run:289 - Fold 1, Final Eval Accuracy: 63.53%
+2024-04-29 16:19:47.832 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_1_arch_evaluation_results.json
+2024-04-29 16:19:47.832 | INFO     | __main__:CV_run:270 - Starting fold 2
+Saved incorrect predictions to fold_1_arch_evaluation_results.json
+2024-04-29 16:19:47.989 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.4248
+2024-04-29 16:19:48.164 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 2.7118
+2024-04-29 16:19:48.340 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 2.2757
+2024-04-29 16:19:48.487 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 2.0594
+2024-04-29 16:19:48.677 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 1.8635
+2024-04-29 16:19:48.848 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 1.6875
+2024-04-29 16:19:48.998 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 1.5129
+2024-04-29 16:19:49.162 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 1.3553
+2024-04-29 16:19:49.309 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 1.2187
+2024-04-29 16:19:49.479 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 1.1848
+2024-04-29 16:19:49.630 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 57.06%
+2024-04-29 16:19:49.795 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 1.1417
+2024-04-29 16:19:49.967 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 1.1028
+2024-04-29 16:19:50.145 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 1.0443
+2024-04-29 16:19:50.327 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 1.0079
+2024-04-29 16:19:50.524 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.9877
+2024-04-29 16:19:50.708 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.9659
+2024-04-29 16:19:50.867 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.9340
+2024-04-29 16:19:51.082 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.9265
+2024-04-29 16:19:51.254 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.8850
+2024-04-29 16:19:51.400 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.9167
+2024-04-29 16:19:51.558 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 60.59%
+2024-04-29 16:19:51.727 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.8249
+2024-04-29 16:19:51.908 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.8990
+2024-04-29 16:19:52.088 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.8775
+2024-04-29 16:19:52.252 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.8705
+2024-04-29 16:19:52.424 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.8675
+2024-04-29 16:19:52.597 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.8450
+2024-04-29 16:19:52.757 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.8159
+2024-04-29 16:19:52.937 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.8005
+2024-04-29 16:19:53.085 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.8227
+2024-04-29 16:19:53.240 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.7974
+2024-04-29 16:19:53.359 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 66.18%
+2024-04-29 16:19:53.532 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.7615
+2024-04-29 16:19:53.703 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.7723
+2024-04-29 16:19:53.854 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.7876
+2024-04-29 16:19:54.017 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.7912
+2024-04-29 16:19:54.157 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.7655
+2024-04-29 16:19:54.308 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.7798
+2024-04-29 16:19:54.481 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.7711
+2024-04-29 16:19:54.669 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.7608
+2024-04-29 16:19:54.854 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.7550
+2024-04-29 16:19:55.036 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.7827
+2024-04-29 16:19:55.189 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 66.76%
+2024-04-29 16:19:55.190 | SUCCESS  | __main__:CV_run:289 - Fold 2, Final Eval Accuracy: 66.76%
+2024-04-29 16:19:55.391 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_2_arch_evaluation_results.json
+2024-04-29 16:19:55.392 | INFO     | __main__:CV_run:270 - Starting fold 3
+Saved incorrect predictions to fold_2_arch_evaluation_results.json
+2024-04-29 16:19:55.575 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.4291
+2024-04-29 16:19:55.725 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 2.8497
+2024-04-29 16:19:55.921 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 2.3951
+2024-04-29 16:19:56.171 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 2.0910
+2024-04-29 16:19:56.352 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 1.9123
+2024-04-29 16:19:56.528 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 1.7369
+2024-04-29 16:19:56.713 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 1.6036
+2024-04-29 16:19:56.863 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 1.4137
+2024-04-29 16:19:57.029 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 1.3163
+2024-04-29 16:19:57.180 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 1.2222
+2024-04-29 16:19:57.307 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 61.47%
+2024-04-29 16:19:57.456 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 1.1825
+2024-04-29 16:19:57.623 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 1.1221
+2024-04-29 16:19:57.806 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 1.0867
+2024-04-29 16:19:57.960 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 1.0686
+2024-04-29 16:19:58.131 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 1.0433
+2024-04-29 16:19:58.297 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.9739
+2024-04-29 16:19:58.464 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.9431
+2024-04-29 16:19:58.661 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 1.0025
+2024-04-29 16:19:58.844 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.9233
+2024-04-29 16:19:59.004 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.9392
+2024-04-29 16:19:59.160 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 65.88%
+2024-04-29 16:19:59.318 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.9346
+2024-04-29 16:19:59.486 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.9073
+2024-04-29 16:19:59.649 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.9060
+2024-04-29 16:19:59.830 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.8548
+2024-04-29 16:20:00.013 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.8577
+2024-04-29 16:20:00.176 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.8675
+2024-04-29 16:20:00.362 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.8714
+2024-04-29 16:20:00.537 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.8386
+2024-04-29 16:20:00.716 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.8313
+2024-04-29 16:20:00.865 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.7856
+2024-04-29 16:20:01.018 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 70.29%
+2024-04-29 16:20:01.183 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.7950
+2024-04-29 16:20:01.310 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.7973
+2024-04-29 16:20:01.442 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.8060
+2024-04-29 16:20:01.612 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.7853
+2024-04-29 16:20:01.786 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.8084
+2024-04-29 16:20:01.955 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.7828
+2024-04-29 16:20:02.147 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.7700
+2024-04-29 16:20:02.305 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.8014
+2024-04-29 16:20:02.467 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.7951
+2024-04-29 16:20:02.623 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.7738
+2024-04-29 16:20:02.749 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 68.53%
+2024-04-29 16:20:02.750 | SUCCESS  | __main__:CV_run:289 - Fold 3, Final Eval Accuracy: 68.53%
+2024-04-29 16:20:02.928 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_3_arch_evaluation_results.json
+2024-04-29 16:20:02.929 | INFO     | __main__:CV_run:270 - Starting fold 4
+Saved incorrect predictions to fold_3_arch_evaluation_results.json
+2024-04-29 16:20:03.105 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.4110
+2024-04-29 16:20:03.292 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 2.7808
+2024-04-29 16:20:03.484 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 2.3730
+2024-04-29 16:20:03.637 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 2.1484
+2024-04-29 16:20:03.799 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 2.0167
+2024-04-29 16:20:03.948 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 1.7419
+2024-04-29 16:20:04.102 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 1.5544
+2024-04-29 16:20:04.281 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 1.4180
+2024-04-29 16:20:04.439 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 1.3232
+2024-04-29 16:20:04.615 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 1.2614
+2024-04-29 16:20:04.756 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 64.12%
+2024-04-29 16:20:04.941 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 1.1809
+2024-04-29 16:20:05.093 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 1.1000
+2024-04-29 16:20:05.251 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 1.0791
+2024-04-29 16:20:05.431 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 1.0699
+2024-04-29 16:20:05.613 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 1.0288
+2024-04-29 16:20:05.762 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 1.0815
+2024-04-29 16:20:05.940 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 1.0473
+2024-04-29 16:20:06.110 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.9998
+2024-04-29 16:20:06.297 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.9399
+2024-04-29 16:20:06.489 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.9455
+2024-04-29 16:20:06.656 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 66.47%
+2024-04-29 16:20:06.823 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.9364
+2024-04-29 16:20:07.014 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.9162
+2024-04-29 16:20:07.200 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.9274
+2024-04-29 16:20:07.353 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.8834
+2024-04-29 16:20:07.521 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.8587
+2024-04-29 16:20:07.685 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.8632
+2024-04-29 16:20:07.835 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.8445
+2024-04-29 16:20:08.105 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.8815
+2024-04-29 16:20:08.278 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.8318
+2024-04-29 16:20:08.453 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.8402
+2024-04-29 16:20:08.593 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 69.41%
+2024-04-29 16:20:08.914 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.8199
+2024-04-29 16:20:09.195 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.8508
+2024-04-29 16:20:09.574 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.7839
+2024-04-29 16:20:09.772 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.8119
+2024-04-29 16:20:09.973 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.7823
+2024-04-29 16:20:10.149 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.7873
+2024-04-29 16:20:10.334 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.8100
+2024-04-29 16:20:10.508 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.7859
+2024-04-29 16:20:10.677 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.7748
+2024-04-29 16:20:10.847 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.7901
+2024-04-29 16:20:11.017 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 70.29%
+2024-04-29 16:20:11.019 | SUCCESS  | __main__:CV_run:289 - Fold 4, Final Eval Accuracy: 70.29%
+2024-04-29 16:20:11.233 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_4_arch_evaluation_results.json
+2024-04-29 16:20:11.234 | INFO     | __main__:CV_run:270 - Starting fold 5
+Saved incorrect predictions to fold_4_arch_evaluation_results.json
+2024-04-29 16:20:11.426 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.4293
+2024-04-29 16:20:11.582 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 2.8004
+2024-04-29 16:20:12.481 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 2.3457
+2024-04-29 16:20:13.309 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 2.1351
+2024-04-29 16:20:13.483 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 1.9075
+2024-04-29 16:20:13.666 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 1.8495
+2024-04-29 16:20:13.838 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 1.6052
+2024-04-29 16:20:14.008 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 1.5366
+2024-04-29 16:20:14.183 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 1.3769
+2024-04-29 16:20:14.334 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 1.2350
+2024-04-29 16:20:14.483 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 60.88%
+2024-04-29 16:20:14.679 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 1.1880
+2024-04-29 16:20:14.826 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 1.1390
+2024-04-29 16:20:14.997 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 1.1311
+2024-04-29 16:20:15.188 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 1.0656
+2024-04-29 16:20:15.363 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 1.0370
+2024-04-29 16:20:15.540 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 1.0158
+2024-04-29 16:20:15.723 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.9958
+2024-04-29 16:20:15.905 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.9295
+2024-04-29 16:20:16.082 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.9435
+2024-04-29 16:20:16.255 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.9354
+2024-04-29 16:20:16.404 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 65.00%
+2024-04-29 16:20:16.602 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.9112
+2024-04-29 16:20:16.789 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.9162
+2024-04-29 16:20:16.970 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.8952
+2024-04-29 16:20:17.155 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.9126
+2024-04-29 16:20:18.363 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.8753
+2024-04-29 16:20:18.540 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.8730
+2024-04-29 16:20:18.705 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.8479
+2024-04-29 16:20:18.897 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.8331
+2024-04-29 16:20:19.086 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.8135
+2024-04-29 16:20:19.254 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.8292
+2024-04-29 16:20:19.413 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 68.24%
+2024-04-29 16:20:19.571 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.7979
+2024-04-29 16:20:19.735 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.8130
+2024-04-29 16:20:19.868 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.8136
+2024-04-29 16:20:20.014 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.7993
+2024-04-29 16:20:20.168 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.8055
+2024-04-29 16:20:20.324 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.8083
+2024-04-29 16:20:20.498 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.7806
+2024-04-29 16:20:20.663 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.7822
+2024-04-29 16:20:20.866 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.7854
+2024-04-29 16:20:21.050 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.7477
+2024-04-29 16:20:21.202 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 68.24%
+2024-04-29 16:20:21.203 | SUCCESS  | __main__:CV_run:289 - Fold 5, Final Eval Accuracy: 68.24%
+2024-04-29 16:20:21.532 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_5_arch_evaluation_results.json
+2024-04-29 16:20:22.092 | SUCCESS  | __main__:CV_run:310 - 5-Fold Cross Validation completed
+2024-04-29 16:20:22.968 | INFO     | __main__:CV_run:246 - Number of classes: 40
+2024-04-29 16:20:22.969 | INFO     | __main__:CV_run:247 - Input shape: torch.Size([1, 894])
+2024-04-29 16:20:22.975 | INFO     | __main__:CV_run:270 - Starting fold 1
+Saved incorrect predictions to fold_5_arch_evaluation_results.json
+2024-04-29 16:20:23.245 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.0884
+2024-04-29 16:20:23.624 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 1.9419
+2024-04-29 16:20:23.805 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 1.4768
+2024-04-29 16:20:24.002 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 1.1392
+2024-04-29 16:20:24.173 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 0.8914
+2024-04-29 16:20:24.764 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 0.7315
+2024-04-29 16:20:25.191 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 0.6305
+2024-04-29 16:20:25.714 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 0.5602
+2024-04-29 16:20:26.283 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 0.4584
+2024-04-29 16:20:26.900 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 0.4529
+2024-04-29 16:20:27.330 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 90.29%
+2024-04-29 16:20:27.791 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 0.4070
+2024-04-29 16:20:27.970 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 0.3763
+2024-04-29 16:20:28.126 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 0.3995
+2024-04-29 16:20:28.336 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 0.3706
+2024-04-29 16:20:28.748 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.3496
+2024-04-29 16:20:29.147 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.3483
+2024-04-29 16:20:29.574 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.3320
+2024-04-29 16:20:30.008 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.3112
+2024-04-29 16:20:30.683 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.3397
+2024-04-29 16:20:30.837 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.3021
+2024-04-29 16:20:30.989 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 92.94%
+2024-04-29 16:20:31.148 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.2993
+2024-04-29 16:20:31.341 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.2993
+2024-04-29 16:20:31.529 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.2856
+2024-04-29 16:20:31.731 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.2728
+2024-04-29 16:20:31.914 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.2562
+2024-04-29 16:20:32.094 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.2546
+2024-04-29 16:20:32.278 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.2571
+2024-04-29 16:20:32.462 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.2247
+2024-04-29 16:20:32.658 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.2292
+2024-04-29 16:20:32.836 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.2276
+2024-04-29 16:20:32.997 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 92.65%
+2024-04-29 16:20:33.180 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.2016
+2024-04-29 16:20:33.372 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.2082
+2024-04-29 16:20:33.543 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.2207
+2024-04-29 16:20:33.721 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.2034
+2024-04-29 16:20:33.908 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.2306
+2024-04-29 16:20:34.070 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.2019
+2024-04-29 16:20:34.238 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.1968
+2024-04-29 16:20:34.403 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.2020
+2024-04-29 16:20:34.597 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.2043
+2024-04-29 16:20:34.766 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.1983
+2024-04-29 16:20:34.908 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 92.94%
+2024-04-29 16:20:34.909 | SUCCESS  | __main__:CV_run:289 - Fold 1, Final Eval Accuracy: 92.94%
+2024-04-29 16:20:35.083 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_1_model_type_evaluation_results.json
+2024-04-29 16:20:35.083 | INFO     | __main__:CV_run:270 - Starting fold 2
+Saved incorrect predictions to fold_1_model_type_evaluation_results.json
+2024-04-29 16:20:35.266 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.0789
+2024-04-29 16:20:35.463 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 1.9975
+2024-04-29 16:20:35.650 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 1.5212
+2024-04-29 16:20:35.830 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 1.1671
+2024-04-29 16:20:36.102 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 1.0020
+2024-04-29 16:20:36.272 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 0.8445
+2024-04-29 16:20:36.444 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 0.6746
+2024-04-29 16:20:36.638 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 0.5529
+2024-04-29 16:20:36.801 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 0.5189
+2024-04-29 16:20:36.942 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 0.4818
+2024-04-29 16:20:37.096 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 89.71%
+2024-04-29 16:20:37.281 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 0.4346
+2024-04-29 16:20:37.493 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 0.4110
+2024-04-29 16:20:37.678 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 0.4062
+2024-04-29 16:20:37.862 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 0.3720
+2024-04-29 16:20:38.048 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.3359
+2024-04-29 16:20:38.237 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.3513
+2024-04-29 16:20:38.430 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.3327
+2024-04-29 16:20:38.613 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.3123
+2024-04-29 16:20:38.762 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.3045
+2024-04-29 16:20:38.927 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.3171
+2024-04-29 16:20:39.098 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 91.18%
+2024-04-29 16:20:39.272 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.3041
+2024-04-29 16:20:39.457 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.2787
+2024-04-29 16:20:39.612 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.2946
+2024-04-29 16:20:39.754 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.2708
+2024-04-29 16:20:39.934 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.2545
+2024-04-29 16:20:40.135 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.2520
+2024-04-29 16:20:40.342 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.2298
+2024-04-29 16:20:40.531 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.2381
+2024-04-29 16:20:40.720 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.2187
+2024-04-29 16:20:40.900 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.2241
+2024-04-29 16:20:41.068 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 89.71%
+2024-04-29 16:20:41.274 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.2144
+2024-04-29 16:20:41.471 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.2076
+2024-04-29 16:20:41.677 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.2127
+2024-04-29 16:20:41.840 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.1903
+2024-04-29 16:20:42.032 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.1987
+2024-04-29 16:20:42.269 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.1967
+2024-04-29 16:20:42.457 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.1837
+2024-04-29 16:20:42.629 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.1864
+2024-04-29 16:20:42.805 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.1953
+2024-04-29 16:20:43.009 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.1953
+2024-04-29 16:20:43.156 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 90.88%
+2024-04-29 16:20:43.158 | SUCCESS  | __main__:CV_run:289 - Fold 2, Final Eval Accuracy: 90.88%
+2024-04-29 16:20:43.370 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_2_model_type_evaluation_results.json
+2024-04-29 16:20:43.372 | INFO     | __main__:CV_run:270 - Starting fold 3
+Saved incorrect predictions to fold_2_model_type_evaluation_results.json
+2024-04-29 16:20:43.568 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.0297
+2024-04-29 16:20:43.739 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 1.9126
+2024-04-29 16:20:43.899 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 1.4463
+2024-04-29 16:20:44.076 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 1.1105
+2024-04-29 16:20:44.242 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 0.9628
+2024-04-29 16:20:44.420 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 0.7733
+2024-04-29 16:20:44.586 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 0.6527
+2024-04-29 16:20:44.744 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 0.5430
+2024-04-29 16:20:44.941 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 0.5173
+2024-04-29 16:20:45.115 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 0.4497
+2024-04-29 16:20:45.255 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 85.59%
+2024-04-29 16:20:45.447 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 0.4524
+2024-04-29 16:20:45.644 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 0.4072
+2024-04-29 16:20:45.840 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 0.3952
+2024-04-29 16:20:46.054 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 0.3837
+2024-04-29 16:20:46.251 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.3624
+2024-04-29 16:20:46.470 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.3528
+2024-04-29 16:20:46.657 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.3258
+2024-04-29 16:20:46.836 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.3182
+2024-04-29 16:20:47.025 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.3031
+2024-04-29 16:20:47.240 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.3376
+2024-04-29 16:20:47.410 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 89.12%
+2024-04-29 16:20:47.596 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.3231
+2024-04-29 16:20:47.775 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.2981
+2024-04-29 16:20:47.939 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.2685
+2024-04-29 16:20:48.131 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.2725
+2024-04-29 16:20:48.318 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.2358
+2024-04-29 16:20:48.525 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.2539
+2024-04-29 16:20:48.719 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.2297
+2024-04-29 16:20:48.927 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.2363
+2024-04-29 16:20:49.127 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.2197
+2024-04-29 16:20:49.320 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.2157
+2024-04-29 16:20:49.492 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 92.06%
+2024-04-29 16:20:49.697 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.2144
+2024-04-29 16:20:49.886 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.2083
+2024-04-29 16:20:50.090 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.2005
+2024-04-29 16:20:50.282 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.1968
+2024-04-29 16:20:50.479 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.2017
+2024-04-29 16:20:50.674 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.2048
+2024-04-29 16:20:50.866 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.1900
+2024-04-29 16:20:51.048 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.2002
+2024-04-29 16:20:51.240 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.1986
+2024-04-29 16:20:51.418 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.1786
+2024-04-29 16:20:51.567 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 92.06%
+2024-04-29 16:20:51.568 | SUCCESS  | __main__:CV_run:289 - Fold 3, Final Eval Accuracy: 92.06%
+2024-04-29 16:20:51.769 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_3_model_type_evaluation_results.json
+2024-04-29 16:20:51.771 | INFO     | __main__:CV_run:270 - Starting fold 4
+Saved incorrect predictions to fold_3_model_type_evaluation_results.json
+2024-04-29 16:20:51.974 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.1117
+2024-04-29 16:20:52.137 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 1.9488
+2024-04-29 16:20:52.305 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 1.4709
+2024-04-29 16:20:52.463 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 1.1288
+2024-04-29 16:20:52.647 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 0.9778
+2024-04-29 16:20:52.833 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 0.7887
+2024-04-29 16:20:53.016 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 0.6245
+2024-04-29 16:20:53.205 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 0.5678
+2024-04-29 16:20:53.392 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 0.4899
+2024-04-29 16:20:53.592 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 0.4292
+2024-04-29 16:20:53.760 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 86.76%
+2024-04-29 16:20:53.934 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 0.4238
+2024-04-29 16:20:54.083 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 0.4010
+2024-04-29 16:20:54.246 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 0.3644
+2024-04-29 16:20:54.429 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 0.3397
+2024-04-29 16:20:54.624 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.3444
+2024-04-29 16:20:54.820 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.3319
+2024-04-29 16:20:54.998 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.3407
+2024-04-29 16:20:55.160 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.3157
+2024-04-29 16:20:55.340 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.3339
+2024-04-29 16:20:55.511 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.2852
+2024-04-29 16:20:55.684 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 92.35%
+2024-04-29 16:20:55.849 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.3054
+2024-04-29 16:20:55.997 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.3053
+2024-04-29 16:20:56.176 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.2751
+2024-04-29 16:20:56.385 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.2685
+2024-04-29 16:20:56.578 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.2670
+2024-04-29 16:20:56.761 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.2573
+2024-04-29 16:20:56.934 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.2381
+2024-04-29 16:20:57.136 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.2467
+2024-04-29 16:20:57.337 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.2426
+2024-04-29 16:20:57.523 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.2279
+2024-04-29 16:20:57.690 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 92.35%
+2024-04-29 16:20:57.875 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.2290
+2024-04-29 16:20:58.062 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.2042
+2024-04-29 16:20:58.239 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.2071
+2024-04-29 16:20:58.428 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.2100
+2024-04-29 16:20:58.612 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.1955
+2024-04-29 16:20:58.784 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.2091
+2024-04-29 16:20:58.967 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.2041
+2024-04-29 16:20:59.158 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.1934
+2024-04-29 16:20:59.363 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.2007
+2024-04-29 16:20:59.570 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.1912
+2024-04-29 16:20:59.747 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 92.35%
+2024-04-29 16:20:59.749 | SUCCESS  | __main__:CV_run:289 - Fold 4, Final Eval Accuracy: 92.35%
+2024-04-29 16:20:59.978 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_4_model_type_evaluation_results.json
+2024-04-29 16:20:59.980 | INFO     | __main__:CV_run:270 - Starting fold 5
+Saved incorrect predictions to fold_4_model_type_evaluation_results.json
+2024-04-29 16:21:00.172 | INFO     | __main__:train_and_evaluate:48 - Epoch 1, Loss: 3.1505
+2024-04-29 16:21:00.324 | INFO     | __main__:train_and_evaluate:48 - Epoch 2, Loss: 1.9903
+2024-04-29 16:21:00.492 | INFO     | __main__:train_and_evaluate:48 - Epoch 3, Loss: 1.4452
+2024-04-29 16:21:00.658 | INFO     | __main__:train_and_evaluate:48 - Epoch 4, Loss: 1.1756
+2024-04-29 16:21:00.843 | INFO     | __main__:train_and_evaluate:48 - Epoch 5, Loss: 0.9837
+2024-04-29 16:21:01.038 | INFO     | __main__:train_and_evaluate:48 - Epoch 6, Loss: 0.7921
+2024-04-29 16:21:01.234 | INFO     | __main__:train_and_evaluate:48 - Epoch 7, Loss: 0.6807
+2024-04-29 16:21:01.437 | INFO     | __main__:train_and_evaluate:48 - Epoch 8, Loss: 0.5528
+2024-04-29 16:21:01.619 | INFO     | __main__:train_and_evaluate:48 - Epoch 9, Loss: 0.5006
+2024-04-29 16:21:01.820 | INFO     | __main__:train_and_evaluate:48 - Epoch 10, Loss: 0.4866
+2024-04-29 16:21:01.993 | INFO     | __main__:train_and_evaluate:57 - Epoch 10, Eval Accuracy: 85.59%
+2024-04-29 16:21:02.182 | INFO     | __main__:train_and_evaluate:48 - Epoch 11, Loss: 0.4555
+2024-04-29 16:21:02.378 | INFO     | __main__:train_and_evaluate:48 - Epoch 12, Loss: 0.4343
+2024-04-29 16:21:02.574 | INFO     | __main__:train_and_evaluate:48 - Epoch 13, Loss: 0.3980
+2024-04-29 16:21:02.745 | INFO     | __main__:train_and_evaluate:48 - Epoch 14, Loss: 0.3682
+2024-04-29 16:21:02.927 | INFO     | __main__:train_and_evaluate:48 - Epoch 15, Loss: 0.3506
+2024-04-29 16:21:03.100 | INFO     | __main__:train_and_evaluate:48 - Epoch 16, Loss: 0.3266
+2024-04-29 16:21:03.274 | INFO     | __main__:train_and_evaluate:48 - Epoch 17, Loss: 0.3304
+2024-04-29 16:21:03.465 | INFO     | __main__:train_and_evaluate:48 - Epoch 18, Loss: 0.3090
+2024-04-29 16:21:03.642 | INFO     | __main__:train_and_evaluate:48 - Epoch 19, Loss: 0.2998
+2024-04-29 16:21:03.806 | INFO     | __main__:train_and_evaluate:48 - Epoch 20, Loss: 0.3248
+2024-04-29 16:21:03.972 | INFO     | __main__:train_and_evaluate:57 - Epoch 20, Eval Accuracy: 88.24%
+2024-04-29 16:21:04.170 | INFO     | __main__:train_and_evaluate:48 - Epoch 21, Loss: 0.2898
+2024-04-29 16:21:04.359 | INFO     | __main__:train_and_evaluate:48 - Epoch 22, Loss: 0.2962
+2024-04-29 16:21:04.548 | INFO     | __main__:train_and_evaluate:48 - Epoch 23, Loss: 0.2937
+2024-04-29 16:21:04.706 | INFO     | __main__:train_and_evaluate:48 - Epoch 24, Loss: 0.2788
+2024-04-29 16:21:04.876 | INFO     | __main__:train_and_evaluate:48 - Epoch 25, Loss: 0.2847
+2024-04-29 16:21:05.026 | INFO     | __main__:train_and_evaluate:48 - Epoch 26, Loss: 0.2658
+2024-04-29 16:21:05.215 | INFO     | __main__:train_and_evaluate:48 - Epoch 27, Loss: 0.2568
+2024-04-29 16:21:05.393 | INFO     | __main__:train_and_evaluate:48 - Epoch 28, Loss: 0.2369
+2024-04-29 16:21:05.572 | INFO     | __main__:train_and_evaluate:48 - Epoch 29, Loss: 0.2308
+2024-04-29 16:21:05.767 | INFO     | __main__:train_and_evaluate:48 - Epoch 30, Loss: 0.2287
+2024-04-29 16:21:05.940 | INFO     | __main__:train_and_evaluate:57 - Epoch 30, Eval Accuracy: 91.47%
+2024-04-29 16:21:06.135 | INFO     | __main__:train_and_evaluate:48 - Epoch 31, Loss: 0.2311
+2024-04-29 16:21:06.339 | INFO     | __main__:train_and_evaluate:48 - Epoch 32, Loss: 0.2254
+2024-04-29 16:21:06.539 | INFO     | __main__:train_and_evaluate:48 - Epoch 33, Loss: 0.2317
+2024-04-29 16:21:06.725 | INFO     | __main__:train_and_evaluate:48 - Epoch 34, Loss: 0.2046
+2024-04-29 16:21:06.901 | INFO     | __main__:train_and_evaluate:48 - Epoch 35, Loss: 0.2201
+2024-04-29 16:21:07.072 | INFO     | __main__:train_and_evaluate:48 - Epoch 36, Loss: 0.2147
+2024-04-29 16:21:07.241 | INFO     | __main__:train_and_evaluate:48 - Epoch 37, Loss: 0.2156
+2024-04-29 16:21:07.441 | INFO     | __main__:train_and_evaluate:48 - Epoch 38, Loss: 0.1977
+2024-04-29 16:21:07.616 | INFO     | __main__:train_and_evaluate:48 - Epoch 39, Loss: 0.2085
+2024-04-29 16:21:07.777 | INFO     | __main__:train_and_evaluate:48 - Epoch 40, Loss: 0.2218
+2024-04-29 16:21:07.930 | INFO     | __main__:train_and_evaluate:57 - Epoch 40, Eval Accuracy: 91.76%
+2024-04-29 16:21:07.932 | SUCCESS  | __main__:CV_run:289 - Fold 5, Final Eval Accuracy: 91.76%
+2024-04-29 16:21:08.158 | SUCCESS  | __main__:evaluate_and_save_results:110 - Saved incorrect predictions to fold_5_model_type_evaluation_results.json
+2024-04-29 16:21:08.528 | SUCCESS  | __main__:CV_run:310 - 5-Fold Cross Validation completed
+Saved incorrect predictions to fold_5_model_type_evaluation_results.json

@@ -1,0 +1,47 @@
+[
+    {
+        "original_model_name": "jjonhwa/BIG-7000",
+        "predicted_label": "camembert",
+        "ground_truth_label": "big_bird"
+    },
+    {
+        "original_model_name": "hf-tiny-model-private/tiny-random-GLPNForDepthEstimation",
+        "predicted_label": "segformer",
+        "ground_truth_label": "glpn"
+    },
+    {
+        "original_model_name": "anton-l/xtreme_s_xlsr_300m_fleurs_langid_quicker_warmup",
+        "predicted_label": "hubert",
+        "ground_truth_label": "wav2vec2"
+    },
+    {
+        "original_model_name": "ZurichNLP/unsup-simcse-xlm-roberta-base",
+        "predicted_label": "camembert",
+        "ground_truth_label": "xlm-roberta"
+    },
+    {
+        "original_model_name": "lewtun/distilhubert-finetuned-music-genres",
+        "predicted_label": "wav2vec2",
+        "ground_truth_label": "hubert"
+    },
+    {
+        "original_model_name": "kundank/dspt-electra-small-qqp",
+        "predicted_label": "camembert",
+        "ground_truth_label": "electra"
+    },
+    {
+        "original_model_name": "JBJoyce/wav2vec2-large-robust-12-ft-emotion-msp-dim-finetuned-gtzan",
+        "predicted_label": "hubert",
+        "ground_truth_label": "wav2vec2"
+    },
+    {
+        "original_model_name": "hf-internal-testing/tiny-random-HubertForSequenceClassification",
+        "predicted_label": "wav2vec2",
+        "ground_truth_label": "hubert"
+    },
+    {
+        "original_model_name": "MuhammadIqbalBazmi/wav2vec2-large-960h-lv60-self-intent-classification-ori",
+        "predicted_label": "hubert",
+        "ground_truth_label": "wav2vec2"
+    }
+]
