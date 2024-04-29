@@ -91,9 +91,9 @@ The code and scripts is organized as follows:
 <!-- Create a table -->
 | File/Folder | Description | Script  |
 | --- | --- | --- |
+| `data_pre.py` | Prepare the data from PeaTMOSS dataset. Convert extracted features into vector. | `python data_pre.py` (This is not runnable because of the size of the original dataset) |
 | `data_analysis.py` | Get the statistics of the data | `python data_analysis.py` |
 | `plot_peatmoss.py` | Plot the distribution of model architectures in the PeaTMOSS dataset | `python plot_peatmoss.py` |
-| `data_pre.py` | Prepare the data from PeaTMOSS dataset. Convert extracted features into vector. | `python data_pre.py` |
 | `data_cleaned_filtered.json` | The cleaned and filtered data from PeaTMOSS dataset which is used as the training and eval data. |  |
 | `dataloader.py`, `dataloader_GMM.py` | Load the data |  |
 | `modeling.py`, `modeling_GMM.py` | Define the model architecture |  |

@@ -75,3 +75,10 @@
 2024-04-29 16:58:17.355 | INFO     | __main__:train_and_evaluate:73 - Epoch 34, Loss: 0.5073
 2024-04-29 16:58:17.501 | INFO     | __main__:train_and_evaluate:50 - Fitting GMM to detect outliers in epoch 35
 2024-04-29 16:58:59.873 | INFO     | __main__:train_and_evaluate:73 - Epoch 35, Loss: 0.4748
+2024-04-29 16:59:00.032 | INFO     | __main__:train_and_evaluate:50 - Fitting GMM to detect outliers in epoch 36
+2024-04-29 17:00:10.614 | INFO     | __main__:train_and_evaluate:73 - Epoch 36, Loss: 0.4813
+2024-04-29 17:00:10.929 | INFO     | __main__:train_and_evaluate:50 - Fitting GMM to detect outliers in epoch 37
+2024-04-29 17:01:21.434 | INFO     | __main__:train_and_evaluate:73 - Epoch 37, Loss: 0.5172
+2024-04-29 17:01:21.594 | INFO     | __main__:train_and_evaluate:50 - Fitting GMM to detect outliers in epoch 38
+2024-04-29 17:01:54.730 | INFO     | __main__:train_and_evaluate:73 - Epoch 38, Loss: 0.4625
+2024-04-29 17:01:54.877 | INFO     | __main__:train_and_evaluate:50 - Fitting GMM to detect outliers in epoch 39
