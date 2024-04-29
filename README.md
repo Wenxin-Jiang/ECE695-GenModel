@@ -43,7 +43,7 @@ This enhancement is pivotal for my n-gram feature selection method.
 ### N-gram Feature Selection
 I propose a method for vectorizing PTM architectural information using two fundamental components that define their architecture: layer connections,
 and layer parameters. 
-These aspects include the structural configuration of each PTM, such as pairs of connected layers (e.g., `(Conv2D, BatchNormalization)`), and specific layer attributes (`kernel\_size: [1, 1]` in a Conv2D layer).
+These aspects include the structural configuration of each PTM, such as pairs of connected layers (e.g., `(Conv2D, BatchNormalization)`), and specific layer attributes (`kernel_size: [1, 1]` in a Conv2D layer).
 I apply an N-gram feature extraction method to convert the architectural characteristics of each DNN into vector form.
 Specifically, I employ 2-grams for analyzing layer connections and 1-grams for detailing layer parameter information. 
 My goal is to find a good unsupervised feature for PTM architectures accurately and efficiently.
@@ -54,20 +54,22 @@ This innovative approach provides a structured and detailed basis for analyzing 
 
 ## Dataset Preparation
 
-My evaluation focuses on two key naming labels: `model\_type` and `architecture`. 
+My evaluation focuses on two key naming labels: `model_type` and `architecture`. 
 I evaluate the pipeline on a sampled data from the PeaTMOSS dataset by calculating the accuracy of the prediction of the trained classifier.
 There are totally 132 architectures which has over 50 PTM instances. I randomly selected 50 architectures from the dataset (50/132, 38%).
-During feature extraction, we were unable to load the PTMs from four architectures, \eg `Bloom, because their model sizes are too large to be loaded on a single GPU.
+During feature extraction, we were unable to load the PTMs from four architectures, \eg `Bloom`, because their model sizes are too large to be loaded on a single GPU.
 This resulted in 46 unique architectures. 
 I was also unable to load another 600 PTMs across these 46 categories because either the dummy inputs could not be used to those models, missing configuration files, or their architecture included customized code which we cannot fully trust.
 Overall, we collected 1700 PTM packages from 46 architectures and 30 model types.
 
-I also changed the `model\_type` and `architectures` of the categories which had less than 20 data as `Others`. This reduced the total number of `architectures` to 40, and `model\_types` to 27.
+I also changed the `model_type` and `architectures` of the categories which had less than 20 data as `Others`. This reduced the total number of `architectures` to 40, and `model_types` to 27.
 
 ## Training and Evaluation
 
 I designed a Deep Neural Network (DNN) classifier for anomaly detection in the PTM dataset because this approach has been shown effective on similar tasks.
-I use an 80-20 split for training and evaluation. The classifier consists of four fully connected layers. 
+I also implemented a DNN+GMM model to improve the performance of the classifier. The GMM model is used to filter out the noise in the data and improve the performance of the DNN model.
+
+For the training, I use an 80-20 split for training and evaluation. The classifier consists of four fully connected layers. 
 I systematically implemented a grid search to optimize the hyperparameters for DARA.
 The final training parameters include 40 epochs, a learning rate of 1e-3, Cross Entropy loss, and a step-wise LR scheduler. Batch sizes are 256 for training and 32 for evaluation. 
 I improved model validation using 5-fold cross-validation on the shuffled dataset.
